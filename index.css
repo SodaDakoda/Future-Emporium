@@ -1,0 +1,67 @@
+body {
+  background-color: #707272;
+}
+h1 {
+  font-family: Impact;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+.p1 {
+  text-align: center;
+  color: azure;
+}
+
+.article-title {
+  font-family: impact;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+}
+p {
+  margin: 5px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(220, 227, 230);
+  border-radius: 10px;
+}
+
+.price {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(2, 92, 2);
+}
+s {
+  color: rgb(186, 6, 6);
+}
+
+.product {
+  display: inline-block;
+  width: 250px;
+  border: 2px solid;
+  padding: 5px;
+  margin: 40px;
+  border-radius: 8px;
+  background-color: rgb(251, 249, 249);
+  text-align: center;
+  place-items: center;
+}
+
+.product-container {
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: darkred;
+  color: white;
+}
